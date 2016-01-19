@@ -1,0 +1,55 @@
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'org.slf4j:slf4j-api:1.7.12'
+        compile 'org.json:json:20150729'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.7.0-rc1'
+
+        testCompile 'junit:junit:4.12'
+    }
+}
+
+
+project(':common') {
+
+}
+
+project(':warehouse') {
+    apply plugin: 'application'
+
+    mainClassName = 'faf.pad4.warehouse.Warehouse'
+
+    dependencies {
+        compile project(':common')
+    }
+
+    run {
+        standardInput = System.in
+        if(project.hasProperty('args')) {
+            args project.args.split()
+        }
+    }
+}
+
+project(':datasource') {
+    apply plugin: 'application'
+
+    mainClassName = 'faf.pad4.datasource.DataSource'
+
+    dependencies {
+        compile project(':common')
+    }
+
+    run {
+        standardInput = System.in
+        if(project.hasProperty('args')) {
+            args project.args.split()
+        }
+    }
+}

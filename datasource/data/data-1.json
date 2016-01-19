@@ -1,0 +1,106 @@
+{
+  "employees" : [
+    {
+      "firstName" : "Florida",
+      "lastName" : "Jude",
+      "department" : "Corporate Relations",
+      "salary" : 100
+    },
+    {
+      "firstName" : "Rose",
+      "lastName" : "Seddon",
+      "department" : "Information Technology",
+      "salary" : 0
+    },
+    {
+      "firstName" : "Tona",
+      "lastName" : "Overcash",
+      "department" : "Corporate Relations",
+      "salary" : 200
+    },
+    {
+      "firstName" : "Valda",
+      "lastName" : "Balcom",
+      "department" : "Sales",
+      "salary" : 1600
+    },
+    {
+      "firstName" : "Emmy",
+      "lastName" : "Wherry",
+      "department" : "Public Relations",
+      "salary" : 1800
+    },
+    {
+      "firstName" : "Tyesha",
+      "lastName" : "Muller",
+      "department" : "Marketing",
+      "salary" : 700
+    },
+    {
+      "firstName" : "Yun",
+      "lastName" : "Ottley",
+      "department" : "Information Technology",
+      "salary" : 800
+    },
+    {
+      "firstName" : "Juliana",
+      "lastName" : "Showers",
+      "department" : "Production & Manufacturing",
+      "salary" : 1600
+    },
+    {
+      "firstName" : "Danyel",
+      "lastName" : "Caddy",
+      "department" : "Production & Manufacturing",
+      "salary" : 400
+    },
+    {
+      "firstName" : "Nadine",
+      "lastName" : "Mcgeorge",
+      "department" : "Finance & Accounting",
+      "salary" : 200
+    },
+    {
+      "firstName" : "Dawn",
+      "lastName" : "Sarkisian",
+      "department" : "Sales",
+      "salary" : 800
+    },
+    {
+      "firstName" : "Lucien",
+      "lastName" : "Hartle",
+      "department" : "Administration",
+      "salary" : 100
+    },
+    {
+      "firstName" : "Dewitt",
+      "lastName" : "Wallander",
+      "department" : "Finance & Accounting",
+      "salary" : 1200
+    },
+    {
+      "firstName" : "Bill",
+      "lastName" : "Stowell",
+      "department" : "Research & Development",
+      "salary" : 1700
+    },
+    {
+      "firstName" : "Pearle",
+      "lastName" : "Nuzzo",
+      "department" : "Sales",
+      "salary" : 1300
+    },
+    {
+      "firstName" : "Yolanda",
+      "lastName" : "Oldenburg",
+      "department" : "Corporate Relations",
+      "salary" : 1800
+    },
+    {
+      "firstName" : "Cuc",
+      "lastName" : "Rapoza",
+      "department" : "Administration",
+      "salary" : 700
+    }
+  ]
+}

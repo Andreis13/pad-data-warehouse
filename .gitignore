@@ -1,0 +1,7 @@
+
+.nb-gradle
+.nb-gradle-properties
+.gradle
+common/build
+warehouse/build
+datasource/build
